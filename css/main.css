@@ -35,8 +35,8 @@ html {
 }
 
 section {
-    background-color: #e5c30a;
-    overflow: hidden;
+  background-color: #e5c30a;
+  overflow: hidden;
 }
 
 body {
@@ -59,31 +59,41 @@ section p {
 
 @media only screen and (min-width: 25em) {
 
-html {
-  font-size: 110%;
-  line-height: 1.3;
-}
+  html {
+    font-size: 110%;
+    line-height: 1.3;
+  }
 
-.section-icon,
-.section-letter {
-  padding: 1.3rem;
-  width: 8em;
+  .section-icon,
+  .section-letter {
+    padding: 1.3rem;
+    width: 8em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
-html {
-  font-size: 110%;
-  line-height: 1.4;
+  html {
+    font-size: 110%;
+    line-height: 1.4;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-html {
-  font-size: 120%;
-  line-height: 1.5;
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 
 }
